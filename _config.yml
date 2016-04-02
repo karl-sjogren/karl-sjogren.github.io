@@ -5,6 +5,7 @@ description: "Thoughts, stories and ideas."
 more: "read more"
 url: "http://karl-sjogren.github.io"
 #baseurl: "/contrast" # comment out if in root directory
+future: true
 
 comments:
 #    disqus: "niklasbuschmann"
