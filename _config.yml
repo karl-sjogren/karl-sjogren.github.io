@@ -4,7 +4,6 @@ description: "Thoughts, stories and ideas."
 #subheading: "Really cool blog about ... something"
 more: "read more"
 url: "http://karl-sjogren.github.io"
-#baseurl: "/contrast" # comment out if in root directory
 future: true
 
 comments:
@@ -26,12 +25,8 @@ style:
 links:
   - github: "https://github.com/karl-sjogren/"
   - twitter: "https://twitter.com/karlsjogren/"
-#  - google-plus: "https://plus.google.com/+me"
-#  - reddit: "https://www.reddit.com/user/me/"
-#  - youtube: "https://www.youtube.com/user/me"
-#  - steam: "http://steamcommunity.com/id/me/"
 
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
-gems: [jekyll-feed] # include feed plugin (supported by gh-pages)
+gems: [jekyll-feed, jekyll-paginate] # include feed plugin (supported by gh-pages)
