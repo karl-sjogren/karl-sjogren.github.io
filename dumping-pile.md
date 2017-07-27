@@ -6,8 +6,8 @@ Here a lot of stuff will land that might be noteworthy or possibly landed into a
 
     IF "%teamcity.build.branch%"=="develop" (
         echo ##teamcity[message text='Executing NuGet Publish for branch %teamcity.build.branch%']
-        .nuget\nuget.exe push build\SagaClient.%env.sagaClientVersion%.nupkg 6c25efdf-cb0d-4881-bd92-b2d04ec14262 -Source https://www.myget.org/F/openlibrarysolutions/api/v2/package 
-        .nuget\nuget.exe push build\SagaClient.%env.sagaClientVersion%.symbols.nupkg 6c25efdf-cb0d-4881-bd92-b2d04ec14262 -Source http://nuget.gw.SymbolSource.org/MyGet/openlibrarysolutions
+        .nuget\nuget.exe push build\SagaClient.%env.sagaClientVersion%.nupkg 00000000-0000-0000-0000-000000000000 -Source https://www.myget.org/F/openlibrarysolutions/api/v2/package 
+        .nuget\nuget.exe push build\SagaClient.%env.sagaClientVersion%.symbols.nupkg 00000000-0000-0000-0000-000000000000 -Source http://nuget.gw.SymbolSource.org/MyGet/openlibrarysolutions
     )
     
     IF NOT "%teamcity.build.branch%"=="develop" (
