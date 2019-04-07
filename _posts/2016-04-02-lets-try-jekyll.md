@@ -1,7 +1,7 @@
 ---
 title:  "Lets try Jekyll for a while!"
 date:   2016-04-02 20:02:00
-categories: misc jekyll ghost
+categories: all-the-little-things
 ---
 
 Seems like it's time to move to a new blog platform again. I really enjoyed [Ghost](https://ghost.org) but there was something seriously wrong with my setup.

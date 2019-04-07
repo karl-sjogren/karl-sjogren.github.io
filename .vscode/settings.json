@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.html": "jekyll"
+    },
+    "markdownlint.config": {
+        "MD002": {
+            "level": 3
+        }
+    }
+}
