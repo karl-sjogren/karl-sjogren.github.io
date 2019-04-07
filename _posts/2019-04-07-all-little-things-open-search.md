@@ -1,7 +1,7 @@
 ---
 title:      "All the little things - OpenSearch"
 date:       2019-04-07 12:00:00
-categories: all-the-little-things opensearch c# aspnetcore saga json-ld schema.org
+categories: opensearch c# aspnetcore saga json-ld schema.org
 ---
 
 Since a huge thing in Saga is its search engine, adding an OpenSearch endpoint

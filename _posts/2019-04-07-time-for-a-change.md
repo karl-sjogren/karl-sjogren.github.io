@@ -1,7 +1,7 @@
 ---
 title:      "Time for a change"
 date:       2019-04-07 00:00:00
-categories: all-the-little-things saga
+categories: saga
 ---
 
 Back in January the company I have worked for the past 6 years was bought by

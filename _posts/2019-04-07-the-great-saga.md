@@ -1,7 +1,7 @@
 ---
 title:      "The great Saga"
 date:       2019-04-07 06:00:00
-categories: all-the-little-things saga
+categories: saga
 ---
 
 Saga is a product that started development mere weeks after I joined Open
