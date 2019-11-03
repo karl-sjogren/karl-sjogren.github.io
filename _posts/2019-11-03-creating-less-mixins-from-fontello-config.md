@@ -87,13 +87,13 @@ Then call it like `node build.js`.
 
 This will output a LESS file that looks like this in `./styles/fontello-icon-definitions.less`.
 
-{% highlight %}
+```
 #icons {
   .arrow-left() {
     content: '\e800';
   }
-}  
-{% endhighlight %}
+}
+```
 
 Which makes it a lot easier to work with the icons if you ask me. I've so far
 used this with two projects, one with a simple Grunt pipeline and with with a
